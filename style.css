@@ -1,0 +1,26 @@
+h1 {
+  font-size: 40px;
+  color: brown;
+  text-align: center;
+}
+header {
+text-align: center
+}
+html {
+  background-image: url("https://i.imgur.com/kUGGrs1.png");
+}
+p {
+  padding: 80px;
+  border: 2px;
+  font-size: 30px;
+}
+/*:active is a psuedo-class selector that is used to style an element while being clicked*/
+li {
+  background-color: grey;
+  border: 2px solid black;
+  padding: 40px;
+  margin: 20px;
+  display: inline;
+  /*text-align: center;*/
+
+}
