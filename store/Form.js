@@ -1,4 +1,4 @@
 export default {
   header: "Comments",
-  view: "Form"
+  page: "Form"
 };

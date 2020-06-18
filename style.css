@@ -4,7 +4,7 @@ h1 {
   text-align: center;
 }
 header {
-text-align: center
+text-align: center;
 }
 html {
   background-image: url("https://i.imgur.com/kUGGrs1.png");
@@ -22,3 +22,6 @@ li {
   margin: 20px;
   display: inline;
   }
+ul {
+  text-align: center;
+}
