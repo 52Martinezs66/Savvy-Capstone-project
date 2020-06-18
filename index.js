@@ -10,14 +10,12 @@ router
     "/": () => render(state.Home)
   })
   .resolve();
-  function render(st = state.Home) {
-      document.querySelector("#root").innerHTML = `
+function render(st = state.Home) {
+  document.querySelector("#root").innerHTML = `
       ${Header(st)}
       ${Nav(state.Links)}
       ${Main(st)}
       ${Footer()}
       `;
-      router.updatePageLinks();
-    }
-    render();
-
+  router.updatePageLinks();
+}
