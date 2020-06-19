@@ -1,4 +1,4 @@
 export default {
-  header: "Comments",
+  header: "Form",
   page: "Form"
 };
