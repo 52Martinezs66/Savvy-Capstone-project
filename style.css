@@ -23,9 +23,26 @@ li {
   display: inline;
   }
 ul {
+
+  padding: 20px;
   text-align: center;
 }
 form {
   padding: 30px;
   text-align: center;
+}
+.bio {
+  border: 5px solid grey;
+}
+#gallery {
+
+  border: 5px solid grey;
+
+}
+footer {
+  text-align: center;
+  padding: 30px;
+}
+main {
+  border: 2px;
 }

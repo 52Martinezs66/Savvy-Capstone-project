@@ -1,5 +1,5 @@
-export default () => `
-  <main>
+export default st => `
+<main>
   <p>${st.paragraph}</P>
-  </main>
+</main>
   `;
