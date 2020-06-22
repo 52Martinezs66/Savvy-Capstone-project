@@ -4,26 +4,28 @@ h1 {
   text-align: center;
 }
 header {
-text-align: center;
+  font-weight: bold;
+  text-align: center;
 }
 html {
   background-image: url("https://i.imgur.com/kUGGrs1.png");
 }
 p {
+  font-weight: bold;
   padding: 80px;
-  border: 2px;
   font-size: 30px;
 }
 /*:active is a psuedo-class selector that is used to style an element while being clicked*/
 li {
+  border-radius: 15px;
   background-color: grey;
   border: 2px solid black;
   padding: 40px;
   margin: 20px;
   display: inline;
-  }
+}
 ul {
-
+  margin: 30px;
   padding: 20px;
   text-align: center;
 }
@@ -31,13 +33,15 @@ form {
   padding: 30px;
   text-align: center;
 }
-.bio {
-  border: 5px solid grey;
+#info {
+  border-radius: 15px;
+  background-color: gray;
+  border: 5px solid rgb(56, 52, 52);
 }
 #gallery {
-
+  border-radius: 15px;
+  background-color: gray;
   border: 5px solid grey;
-
 }
 footer {
   text-align: center;

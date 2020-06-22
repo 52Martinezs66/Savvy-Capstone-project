@@ -1,5 +1,5 @@
 export default st => `
 <main>
-  <p>${st.paragraph}</P>
+  <p id= "info">${st.paragraph}</P>
 </main>
   `;

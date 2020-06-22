@@ -20,6 +20,7 @@ function render(st = state.Home) {
     `;
   addNavEventListeners();
   addNavToggle();
+  addPicOnFormSubmit();
   router.updatePageLinks();
 }
 render(state.Home);
@@ -48,7 +49,7 @@ function addPicOnFormSubmit() {
   document.querySelector("form").addEventListener("submit", event => {
     event.preventDefault();
     let inputs = event.target.elements;
-    let newpic = {
+    let newPic = {
       url: inputs[0].value,
       title: inputs[1].value
     };

@@ -1,5 +1,5 @@
 export default {
-  header: "Trail Gallery",
+  header: "Bee Tree Gallery",
   page: "Gallery",
   pictures: [
     {
@@ -11,10 +11,6 @@ export default {
       url:
         "https://s3-media0.fl.yelpcdn.com/bphoto/PiW2bQWD1RHFhLKaVpfP1w/l.jpg",
       title: "Bee Tree River view"
-    },
-    {
-      url: "",
-      title: ""
     }
   ]
 };
