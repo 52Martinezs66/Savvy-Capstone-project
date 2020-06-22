@@ -11,6 +11,10 @@ export default {
       url:
         "https://s3-media0.fl.yelpcdn.com/bphoto/PiW2bQWD1RHFhLKaVpfP1w/l.jpg",
       title: "Bee Tree River view"
+    },
+    {
+      url: "https://photos.app.goo.gl/e48mMGm8thBUd1Jp6",
+      title: "Bee Tree Mansion"
     }
   ]
 };
