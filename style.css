@@ -1,6 +1,6 @@
 h1 {
   font-size: 40px;
-  color: brown;
+  color: rgb(206, 137, 137);
   text-align: center;
 }
 header {
@@ -17,6 +17,8 @@ p {
 }
 /*:active is a psuedo-class selector that is used to style an element while being clicked*/
 li {
+  text-decoration-color: green;
+  text-color: red;
   border-radius: 15px;
   background-color: grey;
   border: 2px solid black;
@@ -52,3 +54,4 @@ footer {
 main {
   border: 2px;
 }
+
