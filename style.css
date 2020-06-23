@@ -39,6 +39,8 @@ form {
   border: 5px solid rgb(56, 52, 52);
 }
 #gallery {
+  display: block;
+  justify-content: align-evenly;
   border-radius: 15px;
   background-color: gray;
   border: 5px solid grey;
