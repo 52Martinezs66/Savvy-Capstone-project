@@ -6,8 +6,8 @@ export default st => `
 <hr />
 <div class="container row justify-content-center">
   <h2 class="pageHeader col-header animated fadeInLeft">${st.title}</h2>
-  <h1 class="row justify-content-center animated fadeIn">Memory Game</h1>
-  <p class="animated fadeIn">This memory game was one of the earliest projects I have ever done! It is built using jQuery and ES5, so it is a little outdated, but showcases DOM manipulation, and is one of my best projects. I learned a lot about adding and removing classes, as well as alerting on load, keeping time, number of clicks, as well as a fully functional reload button that doesn't ping the server! Clicking the image takes you to the hosted site.</p>
+  <h1 class="row justify-content-center animated fadeIn">Bee Tree Hours</h1>
+  <p class="animated fadeIn">This is Bee Tree Park hours and rules.</p>
   <div class="imgContainer">.
     <a href="http://bunchdevelopment.github.io/udacity_memory_game/" target="_blank"><img src="${memory}" class="blur portfolioIMG" id="memoryImg"></a>
   </div>
