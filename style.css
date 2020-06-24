@@ -33,9 +33,13 @@ ul {
   text-align: center;
 }
 #form {
-  display: inline;
-  padding: 30px;
+  margin-right: 250px;
+  margin-left: 250px;
+  border-radius: 15px;
+  border: 2px solid;
+  background-color: gray;
   text-align: center;
+  padding: 2px;
 }
 #info {
   border-radius: 15px;
@@ -43,13 +47,15 @@ ul {
   border: 5px solid rgb(56, 52, 52);
 }
 #gallery {
-  display: inline-flex;
-  object-fit: contain;
   border-radius: 15px;
   background-color: gray;
   border: 5px solid grey;
 }
 footer {
+  text-decoration-color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  position: bottom;
   text-align: center;
   padding: 30px;
 }
@@ -57,4 +63,19 @@ main {
   display: block;
   border: 5px;
 }
-
+.image {
+  max-width: 100%;
+  height: auto;
+}
+#galleryBorder {
+  border-radius: 15px;
+  margin: 40px;
+  border: 10px solid black;
+  background-color: gray;
+}
+#galleryBorder > h1,p{
+  margin: 5px;
+}
+a {
+  color: rgb(157, 255, 0);
+}

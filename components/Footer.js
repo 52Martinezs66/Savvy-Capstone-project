@@ -1,5 +1,5 @@
 export default () => `
 <footer>
-&copy; 2020 <a href="https://savvycoders.com/">Savvy Coders</a>
+ <a href="https://www.linkedin.com/in/shawn-martinez-21a9b31a6/">SHAWN MARTINEZ</a>&copy; 2020
 </footer>
 `;
