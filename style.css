@@ -1,6 +1,6 @@
 h1 {
-  font-size: 40px;
-  color: rgb(206, 137, 137);
+  font-size: 60px;
+  color: rgb(224, 20, 20);
   text-align: center;
 }
 header {
@@ -32,7 +32,8 @@ ul {
   padding: 20px;
   text-align: center;
 }
-form {
+#form {
+  diplay: block;
   padding: 30px;
   text-align: center;
 }
@@ -53,8 +54,7 @@ footer {
   padding: 30px;
 }
 main {
-  border: 2px;
+  display: block;
+  border: 5px;
 }
-#form {
-  text-align: center;
-}
+
