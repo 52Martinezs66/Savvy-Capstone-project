@@ -1,6 +1,6 @@
-const memory = require("./../../assets/memorygame.png");
-const pywebsite = require("./../../assets/movie_website_snippit.png");
-const reactSW = require("./../../assets/reactSW.jpeg");
+const memory = require("./../../assets/BeeTreeHoursSign.jpg");
+const pywebsite = require("./../../assets/BeeTreeHoursSign.jpg");
+const reactSW = require("./../../assets/BeeTreeDeck.jpg");
 
 export default st => `
 <hr />
