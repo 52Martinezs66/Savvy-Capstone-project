@@ -11,6 +11,7 @@ html {
   background-image: url("https://i.imgur.com/kUGGrs1.png");
 }
 p {
+  text-align: center;
   font-weight: bold;
   padding: 80px;
   font-size: 30px;
@@ -54,4 +55,6 @@ footer {
 main {
   border: 2px;
 }
-
+#form {
+  text-align: center;
+}
