@@ -1,15 +1,12 @@
-export default () => ` <form id="register" method="POST" action="">
-<div>
-  <label for="username">Username:</label>
-  <input type="text" name="username" id="username" placeholder="Enter Your Username">
-</div>
-<div>
-  <label for="password">Password:</label>
-  <input type="password" name="password" id="password">
-</div>
-<div>
-  <label for="email">Email:</label>
-  <input type="email" name="email" id="email" placeholder="your@email.here">
-</div>
-<input type="submit" name="register" value="Register">
+export default () => `<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/YOUR_EMAIL_HERE" method="post">
+<fieldset id="fs-frm-inputs">
+  <label for="full-name">Full Name</label>
+  <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+  <label for="email-address">Email Address</label>
+  <input type="email" name="_reply" id="email-address" placeholder="email@domain.tld" required="">
+  <label for="Comments">Comments</label>
+  <textarea rows="5" name="message" id="message" placeholder="Comments" required=""></textarea>
+  <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+</fieldset>
+<input type="submit" value="Submit">
 </form>`;
