@@ -1,6 +1,6 @@
 h1 {
   font-size: 60px;
-  color: rgb(224, 20, 20);
+  color: rgb(10, 1, 1);
   text-align: center;
 }
 header {
@@ -19,7 +19,7 @@ p {
 /*:active is a psuedo-class selector that is used to style an element while being clicked*/
 li {
   text-decoration-color: green;
-  text-color: red;
+  color: red;
   border-radius: 15px;
   background-color: grey;
   border: 2px solid black;
@@ -33,7 +33,7 @@ ul {
   text-align: center;
 }
 #form {
-  diplay: block;
+  display: block;
   padding: 30px;
   text-align: center;
 }
