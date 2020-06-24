@@ -44,7 +44,7 @@ ul {
 }
 #gallery {
   display: block;
-  justify-content: align-evenly;
+  object-fit: contain;
   border-radius: 15px;
   background-color: gray;
   border: 5px solid grey;
