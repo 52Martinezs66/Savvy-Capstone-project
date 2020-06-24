@@ -1,5 +1,5 @@
 export default st => `
 <main>
-  <p id= "info">${st.paragraph.join("")}</P>
+  <p id= "info">${st.paragraph.text}</P>
 </main>
   `;
