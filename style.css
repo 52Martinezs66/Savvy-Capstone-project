@@ -33,7 +33,7 @@ ul {
   text-align: center;
 }
 #form {
-  display: block;
+  display: inline;
   padding: 30px;
   text-align: center;
 }
@@ -43,7 +43,7 @@ ul {
   border: 5px solid rgb(56, 52, 52);
 }
 #gallery {
-  display: block;
+  display: inline-flex;
   object-fit: contain;
   border-radius: 15px;
   background-color: gray;
