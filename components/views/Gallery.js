@@ -2,10 +2,10 @@ const memory = require("./../../assets/memorygame.png");
 const pywebsite = require("./../../assets/movie_website_snippit.png");
 const reactSW = require("./../../assets/reactSW.jpeg");
 
-export default state => `
+export default st => `
 <hr />
 <div class="container row justify-content-center">
-  <h2 class="pageHeader col-header animated fadeInLeft">${state.title}</h2>
+  <h2 class="pageHeader col-header animated fadeInLeft">${st.title}</h2>
   <h1 class="row justify-content-center animated fadeIn">Memory Game</h1>
   <p class="animated fadeIn">This memory game was one of the earliest projects I have ever done! It is built using jQuery and ES5, so it is a little outdated, but showcases DOM manipulation, and is one of my best projects. I learned a lot about adding and removing classes, as well as alerting on load, keeping time, number of clicks, as well as a fully functional reload button that doesn't ping the server! Clicking the image takes you to the hosted site.</p>
   <div class="imgContainer">.
@@ -31,6 +31,6 @@ export default state => `
 <br />
 `;
 
-export default st => `<section id="gallery">
-${st.pictures.map(pic => `<img src="${pic.url}" alt="${pic.title}">`).join("")}
-</section>`;
+// export default st => `<section id="gallery">
+// ${st.pictures.map(pic => `<img src="${pic.url}" alt="${pic.title}">`).join("")}
+// </section>`;
